@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Farbige Tabelle</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: darkblue;
+            color: white;
+            padding: 10px;
+        }
+
+        /* Gerade Zeilen (even) */
+        tr:nth-child(even) {
+            background-color: lightblue;
+        }
+
+        /* Ungerade Zeilen (odd) */
+        tr:nth-child(odd) {
+            background-color: white;
+        }
+
+        td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Überschrift 1</th>
+            <th>Überschrift 2</th>
+            <th>Überschrift 3</th>
+        </tr>
+        <tr>
+            <td>Zeile 1</td>
+            <td>Inhalt 1</td>
+            <td>Daten 1</td>
+        </tr>
+        <tr>
+            <td>Zeile 2</td>
+            <td>Inhalt 2</td>
+            <td>Daten 2</td>
+        </tr>
+        <tr>
+            <td>Zeile 3</td>
+            <td>Inhalt 3</td>
+            <td>Daten 3</td>
+        </tr>
+        <tr>
+            <td>Zeile 4</td>
+            <td>Inhalt 4</td>
+            <td>Daten 4</td>
+        </tr>
+        <tr>
+            <td>Zeile 5</td>
+            <td>Inhalt 5</td>
+            <td>Daten 5</td>
+        </tr>
+    </table>
+</body>
+</html>
