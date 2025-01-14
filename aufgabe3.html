@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .hinweis-container {
+            font-family: 'Roboto', sans-serif;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        .hinweis-titel {
+            background-color: red;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .hinweis-text {
+            display: none;
+            background-color: #ffebee;
+            padding: 15px;
+            border: 1px solid red;
+        }
+
+        .hinweis-titel:hover + .hinweis-text {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="hinweis-container">
+        <div class="hinweis-titel">Hinweis</div>
+        <div class="hinweis-text">
+            Diese Seite ist ideal mit einem Kaugummi zu betrachten.
+        </div>
+    </div>
+</body>
+</html>
