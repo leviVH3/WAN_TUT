@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1 {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            color: blueviolet;
+            text-align: center;
+            background-color: aliceblue;
+            z-index: 1000;
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        @media screen and (max-width: 500px) {
+            .image-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            img {
+                width: 80%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Skiwossa</h1>
+    <div class="image-container">
+        <img src="Skiwossa.png" alt="Skiwossa">
+        <img src="Skiwossa.png" alt="Skiwossa">
+        <img src="Skiwossa.png" alt="Skiwossa">
+        <img src="Skiwossa.png" alt="Skiwossa">
+        <img src="Skiwossa.png" alt="Skiwossa">
+        <img src="Skiwossa.png" alt="Skiwossa">
+        <img src="Skiwossa.png" alt="Skiwossa">
+        <img src="Skiwossa.png" alt="Skiwossa">
+        <img src="Skiwossa.png" alt="Skiwossa">
+        <img src="Skiwossa.png" alt="Skiwossa">
+        
+        
+    </div>
+</body>
+</html>
